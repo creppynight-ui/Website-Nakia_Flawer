@@ -855,15 +855,15 @@ ul { list-style: none; }
 /* ==========================================================================
    SCROLL REVEAL ANIMATION
    ========================================================================== */
-.reveal {
-    transform: translateY(30px);
-    opacity: 0;
-    transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+.reveal{
+    opacity: 1;
+    transform: none;
+    transition: none;
 }
 
-.reveal.active {
-    transform: translateY(0);
+.reveal.active{
     opacity: 1;
+    transform: none;
 }
 
 /* ==========================================================================
