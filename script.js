@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             window.open(`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodedMessage}`, '_blank');
         });
     }
-
+    /*
     // =============================================
     // 5. SCROLL REVEAL ANIMATION
     // =============================================
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, { threshold: 0.05, rootMargin: '0px 0px -20px 0px' });
 
         revealElements.forEach(el => observer.observe(el));
-    }
+    }*/
 
     // =============================================
     // 6. NAV LINK ACTIVE HIGHLIGHT ON SCROLL
